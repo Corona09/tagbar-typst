@@ -7,13 +7,6 @@ endfunction
 
 let s:bin_path = expand('<sfile>:p:h:h').'/bin/typst_ctags'
 
-function! s:insertAgenda()
-	let typ_path = expand('%:p')
-	execute "read !".s:bin_path.' '.typ_path.' 1'
-endfunction
-
-command! -nargs=0 TYPAgenda call s:insertAgenda()
-
 if !exists('g:tagbar_type_typst')
 	let g:tagbar_type_typst = {
 				\ 'ctagsbin'  : s:bin_path,

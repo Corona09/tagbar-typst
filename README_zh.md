@@ -19,8 +19,6 @@ Plug 'Corona09/tagbar-typst'
 
 确保安装了 **php**, 并且 `bin/typst_ctags` 拥有可执行权限.
 
-运行 `:TYPAgenda` 以在当前行插入目录.
-
 Enjoy :)
 
 [vim-plug]: https://github.com/junegunn/vim-plug

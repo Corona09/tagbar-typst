@@ -19,8 +19,6 @@ Plug 'Corona09/tagbar-typst'
 
 Please make sure **php** is in your `$PATH` and the `bin/typst_ctags` has execute permission.
 
-execute `:TYPAgenda` to insert content agenda in the current line.
-
 Enjoy :)
 
 [vim-plug]: https://github.com/junegunn/vim-plug
