@@ -1,10 +1,16 @@
 # tagbar-typst
 
-### 简介
-tagbar-typst 为 typst 文件生成 ctags. It is modified based on [lvht/tagbar-markdown](https://github.com/lvht/tagbar-markdown.git).
-该插件基于 [lvht/tagbar-markdown](https://github.com/lvht/tagbar-markdown.git) ~~实际上就是修改了下变量名~~.
+## 简介
 
-### 安装
+tagbar-typst 为 typst 文件生成 ctags. 该插件是 [lvht/tagbar-markdown](https://github.com/lvht/tagbar-markdown.git) 的一个 fork.
+
+~~实际上就是修改了下变量名~~.
+
+## 截图
+
+![](./screenshot/screenshot.png)
+
+## 安装
 - [vim-plug]
 ```viml
 Plug 'majutsushi/tagbar'

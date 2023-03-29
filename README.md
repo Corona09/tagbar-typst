@@ -1,9 +1,13 @@
 # tagbar-typst
 
-### Intro
-tagbar-typst is a tagbar extension for typst. It is modified based on [lvht/tagbar-markdown](https://github.com/lvht/tagbar-markdown.git).
+## Intro
+tagbar-typst is a tagbar extension for typst. It is a fork of [lvht/tagbar-markdown](https://github.com/lvht/tagbar-markdown.git).
 
-### Install
+## Screenshot
+
+![](./screenshot/screenshot.png)
+
+## Install
 - [vim-plug]
 ```viml
 Plug 'majutsushi/tagbar'
